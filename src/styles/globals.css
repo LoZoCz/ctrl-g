@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 :root {
-    --header-size: 5.75rem;
+    --header-size: 5rem;
+    --section-size: calc(100dvh - var(--header-size));
 }
